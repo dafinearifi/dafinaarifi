@@ -1,0 +1,110 @@
+body {
+    margin: 1em 10% 0 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(images/bgpic.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    cursor: url('images/rocket.svg'), auto;
+}
+    
+nav .one {
+    display: inline;
+    background-color: #ff7142;
+    color: white;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 6px;
+    margin: 8px;
+    text-decoration: none;
+}
+.contactt {
+    border: 1px solid black;
+    width: fit-content;
+    background-color: #e8a65a;
+    padding: 4px;
+    margin: 3px;
+    display: inline;
+
+}
+section:nth-child(odd) {
+    width: 700px;
+    background-color: #f6b76ec2;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 30px;
+    margin-left: 230px;
+    margin-bottom: 30px;
+    cursor: url('images/rocket.svg'), auto;
+}
+section:nth-child(even) {
+    width: 700px;
+    background-color: #f79a68c1;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 30px;
+    margin-left: 230px;
+    margin-bottom: 30px;
+}
+section:hover , .one:hover {
+    border: 3px solid black;
+    background-color: #ff964c;
+}
+table {
+    border-collapse: collapse;
+    background-color: #f69a31;
+}
+.school , .connect {
+    width: 600px;
+    background-color: white;
+    border-radius: 5%;
+    border: transparent;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+.links {
+    text-align: left;
+}
+nav .button {
+    position: relative;
+    width: fit-content;
+    padding: 3px;
+    top: 10px;
+    background-color:#e8a65a;
+    border-radius: 10%;
+    cursor: pointer;
+}
+footer {
+    width: 800px;
+    background-color: #8e581b;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    margin-left: 200px;
+}
+.message {
+    background-color: #b87528;
+    border: transparent;
+    border-radius: 10%;
+    padding-top: 10px;
+}
+.connect {
+    width: 220px;
+    background-color: transparent;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 230px;
+}
+.dancing , .languages {
+    width: 600px;
+    background-color: #ff7142;
+    border-radius: 10%;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}

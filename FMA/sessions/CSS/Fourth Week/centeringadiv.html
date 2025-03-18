@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering a Div</title>
+    <style>
+        body {
+            background-color: rgb(255, 182, 208);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-wrap: wrap;
+        }
+        .container {
+            width: 860px;
+            height: 260px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .centered {
+            width: 250px;
+            height: 200px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="centered">
+            <h1>I am centered</h1>
+            <p>I am some radnom text</p>
+        </div> 
+        <div class="centered">
+            <h1>I am centered</h1>
+            <p>I am some radnom text</p>
+        </div>
+        <div class="centered">
+            <h1>I am centered</h1>
+            <p>I am some radnom text</p>
+        </div>
+    </div>
+</html>
