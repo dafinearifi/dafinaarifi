@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>CP CoolPage</title>
+    <style>
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+}
+:root {
+    --primary-color: #c9c9c9;
+    --secondary-color: white;
+    --third-color: black;
+    --faded-color: rgba(0, 0, 0, 0.5);
+    --aside-faded-color: rgba(0, 0, 0, 0.8);
+    --header-font-size: 25px;
+    --text-font-size: 15px;
+}
+aside {
+    width: 20%;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('images/sidebar-1.jpg');
+    background-color: var(--aside-faded-color);
+    background-blend-mode: color;
+    color: var(--secondary-color);
+    background-size: cover;
+}
+.cp {
+    font-size: var(--header-font-size);
+    font-weight: bold;
+    justify-self: center;
+}
+.aside-item {
+    height: 65px;
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.aside-item:hover {
+    background-color: rgba(39, 39, 39, 0.76);
+    border-radius: 5%;
+}
+.john-doe {
+    height: 65px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.two-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.red-aside-item {
+    background-color: red;
+    height: 65px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5%;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.material-icons {
+    margin: 7px;
+}
+img {
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    overflow: hidden;
+}
+header {
+    height:fit-content;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#round-icons {
+    border-radius: 50%;
+    box-shadow: 0px 0px 32px -22px rgba(0,0,0,0.6);
+    background-color: var(--secondary-color);
+    color: var(--faded-color);
+    padding: 8px;
+}
+#round-icons:hover {
+    box-shadow: 0px 0px 32px -5px rgba(0,0,0,0.7);
+}
+.search-bar {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: var(--primary-color);
+    border: 1px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+    </style>
+</head>
+<body>
+    <aside>
+        <div>
+                <p class="cp">CP COOL PAGE</p>
+                <hr>
+            <div class="john-doe">
+                <div class="two-items">
+                    <img src="images/avatar.jpg" alt="avatar">
+                <span>John Doe</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <hr>
+            <div class="red-aside-item">
+                <span class="material-icons">dashboard</span> Dashboard
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">image</span> 
+                    <span>Pages</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">apps</span> 
+                    <span>Components</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">content_paste</span> 
+                    <span>Forms</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">grid_on</span> 
+                    <span>Tables</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">place</span> 
+                    <span>Map</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">widgets</span> 
+                    <span>Widgets</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">insights</span> 
+                    <span>Charts</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+            <div class="aside-item">
+                <div class="two-items">
+                    <span class="material-icons">date_range</span> 
+                    <span>Calendar</span>
+                </div>
+                <span class="material-icons">expand_more</span>
+            </div>
+        </div>
+    </aside>
+    <div class="container">
+        <header>
+            <div>
+                <span class="material-icons" id="round-icons">more_vert</span>
+            </div>
+            <div>
+                <input type="text" placeholder="Search" class="search-bar">
+                <span class="material-icons" id="round-icons">search</span>
+                <span class="material-icons">dashboard</span>
+                <span class="material-icons">notifications</span>
+                <span class="material-icons">person</span>
+            </div>
+        </header>
+        <main>
+            <br><br><br>
+            <div class="main-fi">
+                <span class="material-icons" id="colorful-icons">language</span>
+               <span>Gloal Sales By Top Locations</span>
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <iframe src="https://maps.app.goo.gl/Z1ngy1YpKMa1ZTXk8" frameborder="2" title="map">maps</iframe>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+</body>
+</html>

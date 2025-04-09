@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+:root {
+    --primary-color: #c9c9c9;
+    --secondary-color: white;
+    --third-color: black;
+    --header-font-size: 25px;
+    --text-font-size: 15px;
+}
+aside {
+    width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('images/sidebar-1.jpg');
+    color: var(--secondary-color);
+    mix-blend-mode: color;
+    background-size: cover;
+}
+.cp {
+    font-size: var(--header-font-size);
+}
+.card {
+    height: 60px;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.card:hover {
+    background-color: rgba(44, 44, 44, 0.73);
+    border-radius: 5%;
+}
+.red-card {
+    background-color: red;
+    height: 60px;
+    width: 260px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5%;
+}
+img {
+    width: 55px;
+    border-radius: 50%;
+}
+main {
+    background-color: var(--primary-color);
+}
