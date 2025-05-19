@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers from 1 to n</title>
+</head>
+
+<body>
+    <script>
+        let number = parseInt(prompt(`Please enter a number between 1 and 100: `));
+
+        if (number >= 1 && number <= 100) {
+
+            let output = "";
+            let c = 1;
+
+            while (c <= number) {
+                output += c;
+                if (c < number) {
+                    output += ", ";
+                }
+                c++;
+            }
+
+            console.log(output);
+        }
+
+        else {
+            console.log(`Error! Please enter a number between 1 and 100.`);
+        }
+    </script>
+</body>
+
+</html>
